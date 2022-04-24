@@ -1,0 +1,106 @@
+body {
+  width: 550px;
+  border-color: black;
+  border-style: groove;
+  font-family: "Inter";
+  font-style: normal;
+}
+nav {
+  display: flex;
+  background-color: #f55a5a;
+  height: 55px;
+}
+.nav__content {
+  display: flex;
+  margin: auto;
+}
+.mapImg {
+  filter: invert(0%);
+  height: 24px;
+}
+.nav__title {
+  margin: auto;
+  margin-left: 7px;
+
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #ffffff;
+}
+.local--big--div {
+  display: inline-block;
+  display: flex;
+  width: 470px;
+  margin: auto;
+  margin-top: 10px;
+}
+.local--text {
+  width: 326px;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.map--marker {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 5px;
+}
+
+.local {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+.google--maps {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-left: 12px;
+
+  text-decoration-line: underline;
+
+  color: #918e9b;
+}
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2b283a;
+  margin-top: 4px;
+}
+.date {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+  margin-top: 7px;
+}
+.description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #2b283a;
+}
+.local--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+hr {
+  height: 1px;
+  width: 478px;
+  align-items: center;
+}
+.hr__last {
+  border: 0;
+}
